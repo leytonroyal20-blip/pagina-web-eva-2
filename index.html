@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NEXUS AI</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="theme-blue">
+
+    <div id="particles"></div>
+
+    <main class="login-container">
+
+        <section class="glass-card">
+
+            <h1 class="logo">NEXUS AI</h1>
+
+            <p class="subtitle">
+                Sistema Inteligente Experimental
+            </p>
+
+            <form id="loginForm">
+
+                <div class="input-group">
+
+                    <label>Nombre</label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        placeholder="Ingresa tu nombre"
+                    >
+
+                    <small id="errorNombre" class="error"></small>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="correo@ejemplo.com"
+                    >
+
+                    <small id="errorEmail" class="error"></small>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Tipo de Usuario</label>
+
+                    <select id="tipoUsuario">
+
+                        <option value="">
+                            Selecciona una opción
+                        </option>
+
+                        <option value="Estudiante">
+                            Estudiante
+                        </option>
+
+                        <option value="Profesor">
+                            Profesor
+                        </option>
+
+                        <option value="Administrador">
+                            Administrador
+                        </option>
+
+                    </select>
+
+                    <small id="errorTipo" class="error"></small>
+
+                </div>
+
+                <button type="submit" class="btn-primary">
+                    Iniciar Sistema
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <script src="particles.js"></script>
+    <script src="login.js"></script>
+
+</body>
+
+</html>
