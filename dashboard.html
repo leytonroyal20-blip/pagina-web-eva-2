@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NEXUS Dashboard</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="theme-blue">
+
+    <div id="particles"></div>
+
+    <aside class="sidebar">
+
+        <h2>NEXUS AI</h2>
+
+        <div class="status">
+            <span class="online-dot"></span>
+            ONLINE
+        </div>
+
+        <div class="panel-info">
+
+            <p id="usuarioPanel"></p>
+            <p id="horaActual"></p>
+            <p>Versión: 2.0</p>
+
+        </div>
+
+        <div class="commands">
+
+            <h3>Comandos</h3>
+
+            <ul>
+
+                <li>hola</li>
+                <li>ayuda</li>
+                <li>javascript</li>
+                <li>react</li>
+                <li>html</li>
+                <li>css</li>
+                <li>hora</li>
+                <li>fecha</li>
+                <li>estado</li>
+                <li>tema azul</li>
+                <li>tema rojo</li>
+                <li>tema verde</li>
+                <li>tema morado</li>
+
+            </ul>
+
+        </div>
+
+        <button id="cerrarSesion" class="logout-btn">
+            Cerrar Sesión
+        </button>
+
+    </aside>
+
+    <main class="dashboard-main">
+
+        <section class="chat-section">
+
+            <div id="chatBox" class="chat-box"></div>
+
+            <form id="chatForm" class="chat-form">
+
+                <input
+                    type="text"
+                    id="mensajeInput"
+                    placeholder="Habla con NEXUS..."
+                >
+
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <script src="particles.js"></script>
+    <script src="dashboard.js"></script>
+
+</body>
+
+</html>
